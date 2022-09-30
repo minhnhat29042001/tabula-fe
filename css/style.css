@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 10002;
+}
+.header .menucontact {
+  align-items: center;
+}
+.header .menucontact .menucontactbutton {
+  position: relative;
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1;
+  width: auto;
+  padding: 10px;
+  background-color: #b61984;
+  padding: 16px 20px;
+  border-radius: 500px;
+  margin-bottom: 10px;
+}
+.header .menucontact .menucontactbutton .contactbutton {
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+}
+.header .menucontact .menucontactbutton .contactbutton .btIconWidgetIcon {
+  padding-right: 0.5em;
+}
+.header .menucontact .menucontactbutton .contactbutton .btButtonWidgetText {
+  font-weight: 600;
+}
+.header .menucontact .menucontactbutton:hover a {
+  color: #b61984;
+}
+.header .menucontact .menucontactbutton:hover {
+  background-color: white;
+  background-position: 100%;
+  border: 1px solid #b61984;
+  transition: all 0.5s;
+}
+.header .menucontact .menuicon {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+}
+.header .menucontact .menuicon a {
+  padding-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+.header .menucontact .menuicon a:hover {
+  color: #b61984;
+}
+.header .menu nav ul {
+  display: flex;
+  list-style: none;
+}
+.header .menu nav ul li {
+  padding-left: 50px;
+}
+.header .menu nav ul li a {
+  color: black;
+  font-weight: 600;
+  line-height: 80px;
+  text-decoration: none;
+}
+
+.aboutus {
+  position: relative;
+  padding-bottom: 200px;
+}
+.aboutus .aboutuscontent {
+  padding-top: 70px;
+}
+.aboutus .aboutuscontent .content span {
+  color: #b61984;
+  font-weight: 600;
+}
+.aboutus .aboutuscontent .content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 10px;
+}
+.aboutus .topimage {
+  position: absolute;
+  top: 0;
+}
+.aboutus .topimage img {
+  width: 100%;
+}
+.aboutus .bottomimage {
+  position: absolute;
+  margin-top: 100px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.cardinfromation {
+  background-color: #dcd1f3;
+  position: relative;
+}
+.cardinfromation .cardcontent .row .carditem {
+  z-index: 20;
+}
+.cardinfromation .cardcontent .row .carditem .card .card-body span {
+  color: #b61984;
+  font-size: 15px;
+  font-weight: 600;
+}
+.cardinfromation .cardcontent .row .carditem .card .card-body h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.cardinfromation .bottomcardimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+.cardinfromation .bottomcardimg img {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.cardinfromation .cardcontent .carditem .card:hover img {
+  transform: scale3d(1.01, 1.02, 1.02);
+  transition: all 1.5s;
+}
+.cardinfromation .cardcontent .carditem:hover .card {
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 1.5s;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.form-select {
+  border-color: white;
+  border: none;
+  box-shadow: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.form-select:focus {
+  border-color: #CCC;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.findcourse {
+  margin-top: 50px;
+  position: relative;
+}
+.findcourse .formcontent {
+  height: 100%;
+  z-index: 3;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+}
+.findcourse .formcontent .contentinner h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.findcourse .formcontent .contentinner .formlang .input {
+  margin-top: 50px;
+  padding: 0 40px;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputname {
+  border: solid 1px grey;
+  border-radius: 30px;
+  padding: 15px 10px;
+  margin-right: 20px;
+  width: 40%;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputname i {
+  color: #b61984;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputname input {
+  width: 40%;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputemail {
+  border: solid 1px grey;
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputemail i {
+  color: #b61984;
+}
+.findcourse .formcontent .contentinner .formlang .input .inputemail input {
+  width: 40%;
+}
+.findcourse .formcontent .contentinner .textareamessage {
+  margin-left: 40px;
+  margin-right: 40px;
+  border: solid 1px grey;
+  border-radius: 15px;
+  padding: 10px 10px;
+  height: 100px;
+}
+.findcourse .formcontent .contentinner .textareamessage i {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #b61984;
+}
+.findcourse .formcontent .contentinner .selectitem {
+  margin-left: 40px;
+  margin-right: 40px;
+  border: solid 1px grey !important;
+  border-radius: 30px;
+  padding: 10px 20px;
+  align-items: center;
+}
+.findcourse .formcontent .contentinner .selectitem i {
+  color: #b61984;
+}
+.findcourse .formcontent .contentinner .selectitem .selectlang {
+  width: 100%;
+}
+.findcourse .formcontent .contentinner .menucontactbutton {
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1;
+  width: auto;
+  cursor: pointer;
+  background-color: #b61984;
+  padding: 20px 60px;
+  border-radius: 500px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.findcourse .formcontent .contentinner .menucontactbutton:hover {
+  background: transparent;
+  background-position: 100%;
+  border: 1px solid #b61984;
+  transition: all 0.5s;
+}
+.findcourse .formcontent .contentinner .menucontactbutton:hover span {
+  color: #b61984;
+}
+.findcourse .formcontent .contentinner .menucontactbutton .button .contactbutton {
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+}
+.findcourse .formcontent .contentinner .menucontactbutton .button .contactbutton .btButtonWidgetText {
+  font-weight: 600;
+}
+.findcourse .bottomimg_fincourese {
+  position: absolute;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  bottom: 0;
+}
+
+.contact {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-image: url(http://tabula.bold-themes.com/wavy/wp-content/uploads/sites/3/2019/03/footer_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.contact .content h5 {
+  font-weight: 700;
+}
+.contact .content .innercontent {
+  margin-top: 20px;
+}
+.contact .content .innercontent .rowcontent {
+  align-items: center;
+  margin-top: 5px;
+}
+.contact .content .innercontent .rowcontent i {
+  margin-right: 5px;
+}
+.contact .content .innercontent .rowcontent a {
+  text-decoration: none;
+  color: white;
+}
+.contact .content .innercontent .inputemailcontact input {
+  color: white;
+  text-align: center;
+  padding: 15px 45px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.contact .content .innercontent .inputemailcontact input:focus {
+  border: solid 1px white;
+}
+.contact .content .innercontent .inputemailcontact ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.contact .content .innercontent .menucontactbutton {
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1;
+  width: auto;
+  cursor: pointer;
+  background-color: white;
+  padding: 20px 100px;
+  border-radius: 50px;
+  margin-top: 5px;
+}
+.contact .content .innercontent .menucontactbutton:hover {
+  background: transparent;
+  background-position: 100%;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+.contact .content .innercontent .menucontactbutton:hover span {
+  color: white;
+}
+.contact .content .innercontent .menucontactbutton .button .contactbutton {
+  color: black;
+  display: flex;
+  text-decoration: none;
+}
+.contact .content .innercontent .menucontactbutton .button .contactbutton .btButtonWidgetText {
+  font-weight: 600;
+}
+
+.contact .content .innercontent .iconcontact i:hover {
+  color: black;
+}
